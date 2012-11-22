@@ -79,4 +79,8 @@ $(document).ready(function() {
         },
         button: $('#fubUploadButton')[0]
     });
+
+    $('#test').click(function() {
+        alert('hi!');
+    })
 });
